@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>bootstrap 4 landing page with slider</title>
+   
+    <link rel="shortcut icon" href="/public/images/logoicon.png" type="image/x-icon">
+    <!-- bootstrap cdn -->
+  
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- style.css -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <!-- jquery cdn -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.4.1.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 navbar">
+          <a href="index.html" class="logo navbar-brand text-white offset-md-2"
+            >CREZ'22</a
+          >
+          <ul class="nav">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Upcoming Events</a>
+            </li>
+            <div>
+              <!-- <form action="/list" method="get">
+                <button type="submit" id="myButton" class="btn btn-dark">
+                  Login
+                </button>
+              </form> -->
+            </div>
+            <li class="nav-item">
+              <a href="/register" class="nav-link">Login</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- slider banner	 -->
+
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="info">
+                <h1>Crecendo'22</h1>
+                <p>Fade to Eternity</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="info">
+                <h1>Crecendo'22</h1>
+                <p>Fade to Eternity</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="info">
+                <h1>Crecendo'22</h1>
+                <p>Fade to Eternity</p>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- scripts -->
+    <!-- bootstrap javascript cdn -->
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    ></script>
+
+
+    <!-- ................................Sponsors..................................... -->
+
+    <section>
+
+  <div class="client-wrap">
+    <h1>Our Sponsors</h1>
+    <hr />
+  </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <a href="">
+                        <img src="/images/jbl.jpg" alt="JBL" style="width:100%">
+                    </a>
+                    <div class="card-text">
+                        <h3>OUR MUSIC<BR>PARTNER</h3>
+                        
+                    </div>
+                </div>
+                <button class="buy">
+                    JBL
+                </button>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <a href="">
+                        <img src="/images/cocacola.jpg" alt="COCACOLA" style="width:100%">
+                    </a>
+                    <div class="card-text">
+                        <h3>OUR DRINKS<BR>PARTNER</h3>
+                        
+                    </div>
+                </div>
+                <button class="buy">
+                    COCACOLA
+                </button>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <a href="">
+                        <img src="/images/puma1.png" alt="PUMA" style="width:100%">
+                    </a>
+                    <div class="card-text">
+                        <h3>OUR CLOTHING<BR>PARTNER</h3>
+                        
+                    </div>
+                </div>
+                <button class="buy">
+                    PUMA
+                </button>
+            </div>
+      
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <a href=".">
+                        <img src="/images/Bud.jpg" alt="BUDWEISER" style="width:100%">
+                    </a>
+                    <div class="card-text">
+                        <h3>OUR BEVERAGES<BR>PARTNER</h3>
+                       
+                    </div>
+                </div>
+                <button class="buy">
+                    BUDWEISER
+                </button>
+            </div>
+      
+        </div>
+      </div>
+      <br>
+
+    <!-- ..............................FOOTER....................................... -->
+    <footer id="dk-footer" class="dk-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-4">
+            <div class="dk-footer-box-info">
+              <a href="index.html" class="footer-logo">
+                <!-- <img
+                  src="/public/images/logo.png"
+                  alt="footer_logo"
+                  class="img-fluid"
+                /> -->
+              </a>
+              <p class="footer-info-text">
+                The Crecendo Music Festival is the premier electronic music
+                event every year. It is definitely something that you cannot
+                miss!
+              </p>
+              <div class="footer-social-link">
+                <h3>Follow us</h3>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-google-plus"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- End Social link -->
+            </div>
+            <!-- End Footer info -->
+            <div class="footer-awarad">
+              <img src="images/icon/best.png" alt="" />
+              <p>Let The Crezendo To Eternity Begin...</p>
+            </div>
+          </div>
+          <!-- End Col -->
+          <div class="col-md-12 col-lg-8">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="contact-us">
+                  <div class="contact-icon">
+                    <i class="fa fa-map-o" aria-hidden="true"></i>
+                  </div>
+                  <!-- End contact Icon -->
+                  <div class="contact-info">
+                    <h3>Mumbai, India</h3>
+                    <p>BKC Complex</p>
+                  </div>
+                  <!-- End Contact Info -->
+                </div>
+                <!-- End Contact Us -->
+              </div>
+              <!-- End Col -->
+              <div class="col-md-6">
+                <div class="contact-us contact-us-last">
+                  <div class="contact-icon">
+                    <i
+                      class="fa fa-volume-control-phone"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <!-- End contact Icon -->
+                  <div class="contact-info">
+                    <h3>95 711 9 5353</h3>
+                    <p>Give us a call</p>
+                  </div>
+                  <!-- End Contact Info -->
+                </div>
+                <!-- End Contact Us -->
+              </div>
+              <!-- End Col -->
+            </div>
+            <!-- End Contact Row -->
+            <div class="row">
+              <div class="col-md-12 col-lg-6">
+                <div class="footer-widget footer-left-widget">
+                  <div class="section-heading">
+                    <h3>Useful Links</h3>
+                    <span class="animate-border border-black"></span>
+                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">About us</a>
+                    </li>
+                    <li>
+                      <a href="#">Services</a>
+                    </li>
+                    <li>
+                      <a href="#">Upcoming Events</a>
+                    </li>
+                    <li>
+                      <a href="#">Our Team</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">Contact us</a>
+                    </li>
+                    <li>
+                      <a href="#">Blog</a>
+                    </li>
+                    <li>
+                      <a href="#">Testimonials</a>
+                    </li>
+                    <li>
+                      <a href="#">Faq</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End Footer Widget -->
+              </div>
+              <!-- End col -->
+              <div class="col-md-12 col-lg-6">
+                <div class="footer-widget">
+                  <div class="section-heading">
+                    <h3>Subscribe</h3>
+                    <span class="animate-border border-black"></span>
+                  </div>
+                  <p>
+                    <!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                    The Crecendo Music Festival is the premier electronic music
+                    event every year. It is definitely something that you cannot
+                    miss!
+                  </p>
+                  <form action="#">
+                    <div class="form-row">
+                      <div class="col dk-footer-form">
+                        <input
+                          type="email"
+                          class="form-control"
+                          placeholder="Email Address"
+                        />
+                        <button type="submit">
+                          <i class="fa fa-send"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                  <!-- End form -->
+                </div>
+                <!-- End footer widget -->
+              </div>
+              <!-- End Col -->
+            </div>
+            <!-- End Row -->
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Widget Row -->
+      </div>
+      <!-- End Contact Container -->
+
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <span>Copyright © 2022, All Right Reserved By Crecendo</span>
+            </div>
+            <!-- End Col -->
+            <div class="col-md-6">
+              <div class="copyright-menu">
+                <ul>
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">Terms</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- End col -->
+          </div>
+          <!-- End Row -->
+        </div>
+        <!-- End Copyright Container -->
+      </div>
+      <!-- End Copyright -->
+      <!-- Back to top -->
+      <div id="back-to-top" class="back-to-top">
+        <button class="btn btn-dark" title="Back to Top" style="display: block">
+          <i class="fa fa-angle-up"></i>
+        </button>
+      </div>
+      <!-- End Back to top -->
+    </footer>
+  </body>
+</html>
